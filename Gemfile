@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'sorbet'
+gem 'pry'
+gem 'pry-byebug'
+gem 'sorbet', :group => :development
 gem 'sorbet-runtime'
-gem 'tapioca'
+gem 'tapioca', require: false, :group => [:development, :test]
